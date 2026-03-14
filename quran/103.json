@@ -1,0 +1,39 @@
+{
+ "surah": 103,
+ "name": "Al-Asr",
+ "verses": [
+  {
+   "ayah": 1,
+   "text": "وَٱلْعَصْرِ",
+   "translations": {
+    "en": "By time,",
+    "fr": "Par le temps!",
+    "de": "Bei der Zeit!",
+    "es": "¡Por el tiempo!",
+    "nl": "Bij de tijd!"
+   }
+  },
+  {
+   "ayah": 2,
+   "text": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+   "translations": {
+    "en": "Indeed, mankind is in loss,",
+    "fr": "L'homme est certes en perdition,",
+    "de": "Gewiss, der Mensch befindet sich in Verlust,",
+    "es": "Ciertamente, el hombre está en pérdida,",
+    "nl": "Voorwaar, de mens verkeert in verlies,"
+   }
+  },
+  {
+   "ayah": 3,
+   "text": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+   "translations": {
+    "en": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.",
+    "fr": "sauf ceux qui croient et accomplissent les bonnes œuvres, s'enjoignent mutuellement la vérité et s'enjoignent mutuellement l'endurance.",
+    "de": "außer denen, die glauben und gute Werke tun und einander die Wahrheit ans Herz legen und einander zur Standhaftigkeit ans Herz legen.",
+    "es": "excepto aquellos que creen y hacen buenas obras, y se recomiendan mutuamente la verdad y se recomiendan mutuamente la paciencia.",
+    "nl": "behalve degenen die geloven en goede daden verrichten en elkaar aansporen tot de waarheid en elkaar aansporen tot geduld."
+   }
+  }
+ ]
+}

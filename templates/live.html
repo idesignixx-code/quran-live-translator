@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran Live Translator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts for Arabic and English -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Arabic Quran font */
+        .arabic-text {
+            font-family: 'Amiri Quran', 'Amiri', serif;
+            direction: rtl;
+            line-height: 2.2;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        /* English translation font */
+        .translation-text {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+        }
+        
+        /* Gradient background */
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            transition: background 0.3s ease;
+        }
+        
+        /* Light mode background */
+        body.light-mode {
+            background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 50%, #bcccdc 100%);
+        }
+        
+        /* Animated gradient border */
+        .verse-container {
+            background: linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        body.light-mode .verse-container {
+            background: linear-gradient(145deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.7) 100%);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Microphone button pulse animation */
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 0 0 20px rgba(239, 68, 68, 0);
+            }
+        }
+        
+        .mic-active {
+            animation: pulse 2s infinite;
+        }
+        
+        /* Listening indicator */
+        .listening-indicator {
+            display: none;
+        }
+        
+        .listening-indicator.active {
+            display: flex;
+        }
+        
+        /* Wave animation for listening state */
+        @keyframes wave {
+            0%, 100% { height: 10px; }
+            50% { height: 30px; }
+        }
+        
+        .wave {
+            width: 4px;
+            background: #ef4444;
+            margin: 0 2px;
+            border-radius: 2px;
+            animation: wave 1s ease-in-out infinite;
+        }
+        
+        .wave:nth-child(2) { animation-delay: 0.1s; }
+        .wave:nth-child(3) { animation-delay: 0.2s; }
+        .wave:nth-child(4) { animation-delay: 0.3s; }
+        .wave:nth-child(5) { animation-delay: 0.4s; }
+        
+        /* Fade in animation */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* Decorative Islamic pattern overlay */
+        .pattern-overlay {
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
+        }
+        
+        /* Settings Sidebar */
+        .settings-sidebar {
+            position: fixed;
+            top: 0;
+            right: -400px;
+            width: 400px;
+            max-width: 90vw;
+            height: 100vh;
+            background: rgba(26, 26, 46, 0.98);
+            backdrop-filter: blur(20px);
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
+            transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 1000;
+            overflow-y: auto;
+        }
+        
+        body.light-mode .settings-sidebar {
+            background: rgba(255, 255, 255, 0.98);
+            border-left: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        .settings-sidebar.open {
+            right: 0;
+        }
+        
+        /* Settings Overlay */
+        .settings-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 999;
+        }
+        
+        .settings-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        /* Custom Range Slider */
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 6px;
+            border-radius: 3px;
+            background: rgba(255, 255, 255, 0.1);
+            outline: none;
+        }
+        
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #10b981;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        input[type="range"]::-webkit-slider-thumb:hover {
+            background: #059669;
+        }
+        
+        input[type="range"]::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #10b981;
+            cursor: pointer;
+            border: none;
+        }
+        
+        /* Color Picker Styles */
+        .color-option {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+        
+        .color-option.selected {
+            border-color: #10b981;
+            transform: scale(1.1);
+        }
+        
+        .color-option:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Hidden utility class */
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body class="pattern-overlay">
+    <!-- Settings Overlay -->
+    <div class="settings-overlay" id="settingsOverlay"></div>
+    
+    <!-- Settings Sidebar -->
+    <aside class="settings-sidebar" id="settingsSidebar">
+        <div class="p-6">
+            <!-- Header -->
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-2xl font-bold text-white">Settings</h2>
+                <button id="closeSettings" class="text-gray-400 hover:text-white transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Settings Sections -->
+            <div class="space-y-6">
+                
+                <!-- Language Selection -->
+                <div class="setting-group">
+                    <label class="block text-sm font-medium text-gray-300 mb-3">
+                        🌍 Translation Language
+                    </label>
+                    <select id="settingsLanguage" class="w-full bg-white/10 text-white px-4 py-3 rounded-lg border border-white/20 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                        <option value="en">🇬🇧 English</option>
+                        <option value="fr">🇫🇷 Français</option>
+                        <option value="de">🇩🇪 Deutsch</option>
+                        <option value="es">🇪🇸 Español</option>
+                        <option value="nl">🇳🇱 Nederlands</option>
+                    </select>
+                </div>
+                
+                <!-- Font Size -->
+                <div class="setting-group">
+                    <label class="block text-sm font-medium text-gray-300 mb-3">
+                        🔤 Arabic Font Size
+                    </label>
+                    <div class="flex items-center gap-4">
+                        <span class="text-xs text-gray-400">A</span>
+                        <input type="range" id="fontSizeRange" min="24" max="96" value="60" step="4" class="flex-1">
+                        <span class="text-xl text-gray-400">A</span>
+                    </div>
+                    <div class="text-center mt-2">
+                        <span id="fontSizeValue" class="text-sm text-emerald-400">60px</span>
+                    </div>
+                </div>
+                
+                <!-- Translation Font Size -->
+                <div class="setting-group">
+                    <label class="block text-sm font-medium text-gray-300 mb-3">
+                        📝 Translation Font Size
+                    </label>
+                    <div class="flex items-center gap-4">
+                        <span class="text-xs text-gray-400">A</span>
+                        <input type="range" id="translationFontSizeRange" min="14" max="32" value="20" step="2" class="flex-1">
+                        <span class="text-xl text-gray-400">A</span>
+                    </div>
+                    <div class="text-center mt-2">
+                        <span id="translationFontSizeValue" class="text-sm text-emerald-400">20px</span>
+                    </div>
+                </div>
+                
+                <!-- Display Options -->
+                <div class="setting-group">
+                    <label class="block text-sm font-medium text-gray-300 mb-3">
+                        👁️ Display Options
+                    </label>
+                    <div class="space-y-3">
+                        <label class="flex items-center justify-between cursor-pointer">
+                            <span class="text-gray-300">Show Arabic Text</span>
+                            <div class="relative">
+                                <input type="checkbox" id="toggleArabic" checked class="sr-only peer">
+                                <div class="w-11 h-6 bg-gray-700 rounded-full peer peer-checked:bg-emerald-500 peer-checked:after:translate-x-5 after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all"></div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                
+                <!-- Theme Toggle -->
+                <div class="setting-group">
+                    <label class="block text-sm font-medium text-gray-300 mb-3">
+                        🌓 Theme
+                    </label>
+                    <div class="flex gap-3">
+                        <button id="darkModeBtn" class="flex-1 py-3 px-4 bg-gray-800 text-white rounded-lg border-2 border-emerald-500 transition-all">
+                            🌙 Dark
+                        </button>
+                        <button id="lightModeBtn" class="flex-1 py-3 px-4 bg-gray-700 text-gray-300 rounded-lg border-2 border-transparent transition-all">
+                            ☀️ Light
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Background Color -->
+                <div class="setting-group">
+                    <label class="block text-sm font-medium text-gray-300 mb-3">
+                        🎨 Background Color
+                    </label>
+                    <div class="grid grid-cols-5 gap-3">
+                        <div class="color-option selected" data-bg-color="default" style="background: linear-gradient(135deg, #1a1a2e, #0f3460);" title="Default"></div>
+                        <div class="color-option" data-bg-color="purple" style="background: linear-gradient(135deg, #2d1b69, #5b2c6f);" title="Purple"></div>
+                        <div class="color-option" data-bg-color="green" style="background: linear-gradient(135deg, #134e4a, #064e3b);" title="Green"></div>
+                        <div class="color-option" data-bg-color="navy" style="background: linear-gradient(135deg, #1e293b, #0f172a);" title="Navy"></div>
+                        <div class="color-option" data-bg-color="gray" style="background: linear-gradient(135deg, #374151, #1f2937);" title="Gray"></div>
+                    </div>
+                </div>
+                
+                <!-- Text Color -->
+                <div class="setting-group">
+                    <label class="block text-sm font-medium text-gray-300 mb-3">
+                        ✏️ Arabic Text Color
+                    </label>
+                    <div class="grid grid-cols-5 gap-3">
+                        <div class="color-option selected" data-text-color="white" style="background: #ffffff;" title="White"></div>
+                        <div class="color-option" data-text-color="emerald" style="background: #10b981;" title="Emerald"></div>
+                        <div class="color-option" data-text-color="blue" style="background: #3b82f6;" title="Blue"></div>
+                        <div class="color-option" data-text-color="amber" style="background: #f59e0b;" title="Amber"></div>
+                        <div class="color-option" data-text-color="rose" style="background: #f43f5e;" title="Rose"></div>
+                    </div>
+                </div>
+                
+                <!-- Translation Text Color -->
+                <div class="setting-group">
+                    <label class="block text-sm font-medium text-gray-300 mb-3">
+                        📖 Translation Text Color
+                    </label>
+                    <div class="grid grid-cols-5 gap-3">
+                        <div class="color-option" data-trans-color="white" style="background: #ffffff;" title="White"></div>
+                        <div class="color-option selected" data-trans-color="gray" style="background: #d1d5db;" title="Gray"></div>
+                        <div class="color-option" data-trans-color="emerald" style="background: #10b981;" title="Emerald"></div>
+                        <div class="color-option" data-trans-color="blue" style="background: #3b82f6;" title="Blue"></div>
+                        <div class="color-option" data-trans-color="amber" style="background: #f59e0b;" title="Amber"></div>
+                    </div>
+                </div>
+                
+                <!-- Reset Button -->
+                <div class="pt-4 border-t border-white/10">
+                    <button id="resetSettings" class="w-full py-3 px-4 bg-red-600/20 hover:bg-red-600/30 text-red-400 rounded-lg border border-red-500/30 transition-all">
+                        🔄 Reset to Defaults
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </aside>
+    
+    <div class="min-h-screen flex flex-col">
+        
+        <!-- Header -->
+        <header class="py-6 px-4 text-center relative">
+            <h1 class="text-3xl md:text-4xl font-bold text-white mb-2">
+                ✨ Quran Live Translator
+            </h1>
+            <p class="text-gray-300 text-sm md:text-base">
+                Speak Quran verses in Arabic and see translations instantly
+            </p>
+            
+            <!-- Settings Icon -->
+            <button id="openSettings" class="absolute top-6 right-4 text-gray-400 hover:text-white transition-colors p-2 rounded-lg hover:bg-white/10">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+            </button>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="flex-1 flex items-center justify-center px-4 pb-32">
+            <div class="w-full max-w-4xl">
+                
+                <!-- Verse Display Container -->
+                <div id="verseContainer" class="verse-container rounded-2xl p-8 md:p-12 shadow-2xl">
+                    
+                    <!-- Initial State -->
+                    <div id="initialState" class="text-center">
+                        <div class="mb-8">
+                            <svg class="w-20 h-20 md:w-24 md:h-24 mx-auto text-gray-500 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl md:text-3xl text-gray-400 mb-4">Ready to Listen</h2>
+                        <p class="text-gray-500 text-sm md:text-base mb-6">
+                            Press the microphone button below and recite any Quran verse
+                        </p>
+                        <div class="flex items-center justify-center gap-2 text-gray-600 text-xs md:text-sm">
+                            <span class="px-3 py-1 bg-white/5 rounded-full">🇬🇧 English</span>
+                            <span class="px-3 py-1 bg-white/5 rounded-full">🇫🇷 Français</span>
+                            <span class="px-3 py-1 bg-white/5 rounded-full">🇩🇪 Deutsch</span>
+                            <span class="px-3 py-1 bg-white/5 rounded-full">🇪🇸 Español</span>
+                            <span class="px-3 py-1 bg-white/5 rounded-full">🇳🇱 Nederlands</span>
+                        </div>
+                    </div>
+
+                    <!-- Verse Display (Hidden Initially) -->
+                    <div id="verseDisplay" class="hidden">
+                        <!-- Surah Info -->
+                        <div class="text-center mb-6">
+                            <span id="surahInfo" class="text-emerald-400 text-sm md:text-base font-medium">
+                                <!-- Surah 1 : Ayah 2 -->
+                            </span>
+                        </div>
+
+                        <!-- Arabic Text -->
+                        <div id="arabicTextContainer" class="mb-8">
+                            <p id="arabicText" class="arabic-text text-white text-center leading-relaxed">
+                                <!-- Arabic verse will appear here -->
+                            </p>
+                        </div>
+
+                        <!-- Translation -->
+                        <div class="border-t border-white/10 pt-6">
+                            <p id="translationText" class="translation-text text-lg md:text-xl lg:text-2xl text-gray-300 text-center">
+                                <!-- Translation will appear here -->
+                            </p>
+                        </div>
+
+                        <!-- Language Selector -->
+                        <div class="mt-8 text-center">
+                            <label class="text-gray-400 text-sm mr-3">Translation Language:</label>
+                            <select id="languageSelect" class="bg-white/10 text-white px-4 py-2 rounded-lg border border-white/20 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                                <option value="en">🇬🇧 English</option>
+                                <option value="fr">🇫🇷 Français</option>
+                                <option value="de">🇩🇪 Deutsch</option>
+                                <option value="es">🇪🇸 Español</option>
+                                <option value="nl">🇳🇱 Nederlands</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+
+        <!-- Bottom Control Panel -->
+        <div class="fixed bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent backdrop-blur-md py-8">
+            <div class="max-w-4xl mx-auto px-4">
+                
+                <!-- Status Message -->
+                <div id="statusMessage" class="text-center mb-4 min-h-6">
+                    <p class="text-gray-400 text-sm"></p>
+                </div>
+
+                <!-- Listening Indicator -->
+                <div class="listening-indicator justify-center items-center mb-4" id="listeningIndicator">
+                    <div class="flex items-end h-10">
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                    </div>
+                    <span class="ml-3 text-red-500 text-sm font-medium">Listening...</span>
+                </div>
+
+                <!-- Microphone Button -->
+                <div class="flex justify-center">
+                    <button id="micButton" 
+                            class="group relative bg-gradient-to-r from-red-600 to-red-500 hover:from-red-700 hover:to-red-600 text-white rounded-full p-6 md:p-8 shadow-2xl transform transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-red-500/50">
+                        
+                        <!-- Microphone Icon -->
+                        <svg id="micIcon" class="w-10 h-10 md:w-12 md:h-12" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z"></path>
+                            <path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z"></path>
+                        </svg>
+
+                        <!-- Stop Icon (Hidden Initially) -->
+                        <svg id="stopIcon" class="w-10 h-10 md:w-12 md:h-12 hidden" fill="currentColor" viewBox="0 0 24 24">
+                            <rect x="6" y="6" width="12" height="12" rx="2"></rect>
+                        </svg>
+                        
+                        <!-- Ripple effect on active -->
+                        <span class="absolute inset-0 rounded-full bg-red-500/30 animate-ping opacity-0 group-hover:opacity-100"></span>
+                    </button>
+                </div>
+
+                <!-- Detected Words Display -->
+                <div id="detectedWords" class="text-center mt-4 min-h-6">
+                    <p class="text-gray-500 text-sm italic"></p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

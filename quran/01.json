@@ -1,0 +1,83 @@
+{
+  "surah": 1,
+  "name": "Al-Fatiha",
+  "verses": [
+    {
+      "ayah": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "translations": {
+        "en": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+        "fr": "Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+        "de": "Im Namen Allahs, des Allerbarmers, des Barmherzigen.",
+        "es": "En el nombre de Alá, el Clemente, el Misericordioso.",
+        "nl": "In de naam van Allah, de Barmhartige, de Genadevolle."
+      }
+    },
+    {
+      "ayah": 2,
+      "text": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "translations": {
+        "en": "All praise is due to Allah, Lord of the worlds.",
+        "fr": "Louange à Allah, Seigneur de l'univers.",
+        "de": "Alles Lob gebührt Allah, dem Herrn der Welten.",
+        "es": "Alabado sea Alá, Señor del universo.",
+        "nl": "Alle lof zij Allah, de Heer der Werelden."
+      }
+    },
+    {
+      "ayah": 3,
+      "text": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "translations": {
+        "en": "The Entirely Merciful, the Especially Merciful.",
+        "fr": "Le Tout Miséricordieux, le Très Miséricordieux.",
+        "de": "Dem Allerbarmer, dem Barmherzigen.",
+        "es": "El Clemente, el Misericordioso.",
+        "nl": "De Barmhartige, de Genadevolle."
+      }
+    },
+    {
+      "ayah": 4,
+      "text": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+      "translations": {
+        "en": "Sovereign of the Day of Recompense.",
+        "fr": "Maître du Jour de la rétribution.",
+        "de": "Dem Herrscher am Tag des Gerichts.",
+        "es": "Soberano del Día del Juicio.",
+        "nl": "Meester van de Dag des Oordeels."
+      }
+    },
+    {
+      "ayah": 5,
+      "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "translations": {
+        "en": "It is You we worship and You we ask for help.",
+        "fr": "C'est Toi que nous adorons, et c'est Toi dont nous implorons secours.",
+        "de": "Dir allein dienen wir, und zu Dir allein flehen wir um Hilfe.",
+        "es": "Sólo a Ti adoramos y sólo de Ti imploramos ayuda.",
+        "nl": "U alleen aanbidden wij en U alleen vragen wij om hulp."
+      }
+    },
+    {
+      "ayah": 6,
+      "text": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+      "translations": {
+        "en": "Guide us to the straight path.",
+        "fr": "Guide-nous dans le droit chemin.",
+        "de": "Leite uns den rechten Pfad.",
+        "es": "Guíanos por el camino recto.",
+        "nl": "Leid ons op het rechte pad."
+      }
+    },
+    {
+      "ayah": 7,
+      "text": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+      "translations": {
+        "en": "The path of those upon whom You have bestowed favor, not of those who have evoked Your anger or of those who are astray.",
+        "fr": "Le chemin de ceux que Tu as comblés de faveurs, non pas de ceux qui ont encouru Ta colère, ni des égarés.",
+        "de": "Den Weg derer, denen Du Gunst erwiesen hast, nicht derer, die dem Zorn verfallen sind und nicht der Irregehenden.",
+        "es": "El camino de los que has agraciado, no el de los que han incurrido en Tu ira, ni el de los extraviados.",
+        "nl": "Het pad van degenen aan wie U genade hebt geschonken, niet van degenen op wie toorn rust en niet van de dwalenden."
+      }
+    }
+  ]
+}
