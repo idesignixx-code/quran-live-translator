@@ -2,13 +2,14 @@ services:
   - type: web
     name: quran-live-translator
     env: python
-    region: frankfurt  # or oregon, singapore
+    region: frankfurt
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
     envVars:
       - key: PORT
+        value: 5000
         sync: false
       - key: PYTHON_VERSION
-        value: 3.11.0
+        value: "3.11"
     healthCheckPath: /api/health
