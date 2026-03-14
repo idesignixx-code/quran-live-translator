@@ -1,15 +1,5 @@
-# Core framework
 fastapi>=0.104.0,<0.110.0
 uvicorn[standard]>=0.24.0,<0.30.0
-
-# Utilities
-websockets>=12.0,<13.0
 jinja2>=3.1.2,<4.0
 python-multipart>=0.0.6,<0.1.0
-
-# Pydantic - use version with pre-built wheels for Python 3.11
-pydantic>=2.4.0,<2.6.0
-
-# Optional: QR code support (graceful fallback if missing)
-qrcode[pil]>=7.4.2,<8.0
-pillow>=10.2.0,<11.0
+# Temporarily remove pydantic, qrcode, pillow to test base deploy
