@@ -1,0 +1,556 @@
+{
+  "surah": 77,
+  "name": "Al-Mursalat",
+  "verses": [
+    {
+      "ayah": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْمُرْسَلَٰتِ عُرْفًۭا",
+      "translations": {
+        "en": "CONSIDER these [messages,] sent forth in waves",
+        "fr": "Par ceux qu'on envoie en rafales,",
+        "de": "Bei den Entsandten, die wie eine Mähne aufeinanderfolgen,",
+        "es": "¡Por los enviados en ráfagas!",
+        "nl": "Ik zweer bij de engelen die door God gezonden zijn, en elkander in eene aanhoudende reeks opvolgen."
+      }
+    },
+    {
+      "ayah": 2,
+      "text": "فَٱلْعَٰصِفَٰتِ عَصْفًۭا",
+      "translations": {
+        "en": "and then storming on with a tempest's force!",
+        "fr": "et qui soufflent en tempête!",
+        "de": "den einen Sturm Entfesselnden",
+        "es": "¡Por los que soplan violentamente!",
+        "nl": "Bij hen die zich snel bewegen met eene snelle beweging;"
+      }
+    },
+    {
+      "ayah": 3,
+      "text": "وَٱلنَّٰشِرَٰتِ نَشْرًۭا",
+      "translations": {
+        "en": "Consider these [messages] that spread [the truth] far and wide,",
+        "fr": "Et qui dispersent largement [dans toutes les directions].",
+        "de": "und den alles Ausbreitenden,",
+        "es": "¡Por los que diseminan en todos los sentidos!",
+        "nl": "En bij hen die zijne bevelen verspreiden. Door die op aarde bekend te maken,"
+      }
+    },
+    {
+      "ayah": 4,
+      "text": "فَٱلْفَٰرِقَٰتِ فَرْقًۭا",
+      "translations": {
+        "en": "thus separating [right and wrong] with all clarity,",
+        "fr": "Par ceux qui séparent nettement (le bien et le mal),",
+        "de": "den klar Trennenden,",
+        "es": "¡Por los que distinguen claramente!",
+        "nl": "En bij hen die waarheid van leugen afscheiden, door die te erkennen."
+      }
+    },
+    {
+      "ayah": 5,
+      "text": "فَٱلْمُلْقِيَٰتِ ذِكْرًا",
+      "translations": {
+        "en": "and then giving forth a reminder,",
+        "fr": "et lancent un rappel",
+        "de": "den Ermahnung Überbringenden",
+        "es": "¡Por los que lanzan una amonestación",
+        "nl": "En bij hen die de goddelijke vermaning mededeelen."
+      }
+    },
+    {
+      "ayah": 6,
+      "text": "عُذْرًا أَوْ نُذْرًا",
+      "translations": {
+        "en": "[promising] freedom from blame or [offering] a warning!",
+        "fr": "en guise d'excuse ou d'avertissement!",
+        "de": "zur Pflichterfüllung oder zur Warnung!",
+        "es": "a modo de excusa o de advertencia!",
+        "nl": "Ter verontschuldiging of bedreiging."
+      }
+    },
+    {
+      "ayah": 7,
+      "text": "إِنَّمَا تُوعَدُونَ لَوَٰقِعٌۭ",
+      "translations": {
+        "en": "BEHOLD, all that you are told to expect will surely come to pass.",
+        "fr": "Ce qui vous est promis est inéluctable.",
+        "de": "Gewiß, was euch versprochen wird, wird sicher hereinbrechen.",
+        "es": "¡Ciertamente, aquello con que se os amenaza se cumplirá!",
+        "nl": "Waarlijk, wat wij beloofd hebben, is onvermijdelijk."
+      }
+    },
+    {
+      "ayah": 8,
+      "text": "فَإِذَا ٱلنُّجُومُ طُمِسَتْ",
+      "translations": {
+        "en": "Thus, [it will come to pass] when the stars are effaced,",
+        "fr": "Quand donc les étoiles seront effacées,",
+        "de": "Wenn dann die Sterne ausgelöscht werden",
+        "es": "Cuando las estrellas pierden su luz,",
+        "nl": "Als de sterren zullen worden uitgedoofd."
+      }
+    },
+    {
+      "ayah": 9,
+      "text": "وَإِذَا ٱلسَّمَآءُ فُرِجَتْ",
+      "translations": {
+        "en": "and when the sky is rent asunder,",
+        "fr": "et que le ciel sera fendu,",
+        "de": "und wenn der Himmel gespalten wird",
+        "es": "cuando el cielo se hienda,",
+        "nl": "En de hemel gespleten,"
+      }
+    },
+    {
+      "ayah": 10,
+      "text": "وَإِذَا ٱلْجِبَالُ نُسِفَتْ",
+      "translations": {
+        "en": "and when the mountains are scattered like dust,",
+        "fr": "et que les montagnes seront pulvérisées,",
+        "de": "und wenn die Berge zersprengt werden",
+        "es": "cuando las montañas sean reducidas a polvo,",
+        "nl": "Als de bergen zullen uiteenstuiven."
+      }
+    },
+    {
+      "ayah": 11,
+      "text": "وَإِذَا ٱلرُّسُلُ أُقِّتَتْ",
+      "translations": {
+        "en": "and when all the apostles are called together at a time appointed...",
+        "fr": "et que le moment (pour la réunion) des Messagers a été fixé!...",
+        "de": "und wenn für die Gesandten ihre Zeit gesetzt wird.",
+        "es": "cuando se fije a los enviados su tiempo:",
+        "nl": "En als den gezanten een tijdstip zal zijn aangewezen, om te verschijnen en getuigenis tegen hun eigen volk af te leggen."
+      }
+    },
+    {
+      "ayah": 12,
+      "text": "لِأَىِّ يَوْمٍ أُجِّلَتْ",
+      "translations": {
+        "en": "For what day has the term [of all this] been set?",
+        "fr": "A quel jour tout cela a-t-il été renvoyé?",
+        "de": "Aufweichen Tag ist ihre Frist festgelegt worden?",
+        "es": "«¿Qué día comparecerán?»",
+        "nl": "Tot op welken dag zal men het einde uitstellen?"
+      }
+    },
+    {
+      "ayah": 13,
+      "text": "لِيَوْمِ ٱلْفَصْلِ",
+      "translations": {
+        "en": "For the Day of Distinction [between the true and the false]!",
+        "fr": "Au Jour de la Décision. [le Jugement]!",
+        "de": "Auf den Tag der Entscheidung.",
+        "es": "«¡El día del Fallo!»",
+        "nl": "Tot den dag der scheiding."
+      }
+    },
+    {
+      "ayah": 14,
+      "text": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلْفَصْلِ",
+      "translations": {
+        "en": "And what could make thee conceive what that Day of Distinction will be?",
+        "fr": "Et qui te dira ce qu'est le Jour de la Décision?",
+        "de": "Und was läßt dich wissen, was der Tag der Entscheidung ist?",
+        "es": "Y ¿cómo sabrás qué es el día del Fallo?",
+        "nl": "En wat zal u doen begrijpen, wat de dag der scheiding is?"
+      }
+    },
+    {
+      "ayah": 15,
+      "text": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+      "translations": {
+        "en": "Woe on that Day unto those who give the lie to the truth!",
+        "fr": "Malheur, ce jour-là, à ceux qui criaient au mensonge.",
+        "de": "Wehe an jenem Tag den Leugnern!",
+        "es": "Ese día, ¡ay de los desmentidores!",
+        "nl": "Op dien dag, wee over hem, die de profeten van bedrog beschuldigde!"
+      }
+    },
+    {
+      "ayah": 16,
+      "text": "أَلَمْ نُهْلِكِ ٱلْأَوَّلِينَ",
+      "translations": {
+        "en": "Did We not destroy [so many of] those [sinners] of olden days?",
+        "fr": "N'avons-nous pas fait périr les premières [générations]?",
+        "de": "Haben Wir nicht die Früheren vernichtet?",
+        "es": "¿No hemos hecho que perecieran los primeros hombres",
+        "nl": "Hebben wij niet de vroegere, hardnekkige ongeloovigen verdelgd?"
+      }
+    },
+    {
+      "ayah": 17,
+      "text": "ثُمَّ نُتْبِعُهُمُ ٱلْءَاخِرِينَ",
+      "translations": {
+        "en": "And We shall let them be followed by those of later times:",
+        "fr": "Puis ne les avons-Nous pas fait suivre par les derniers?",
+        "de": "Hierauf lassen Wir ihnen die Späteren folgen.",
+        "es": "y, luego, que les siguieran los últimos?",
+        "nl": "Wij zullen ook die van latere tijden hen doen volgen."
+      }
+    },
+    {
+      "ayah": 18,
+      "text": "كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ",
+      "translations": {
+        "en": "[for] thus do We deal with such as are lost in sin.",
+        "fr": "C'est ainsi que Nous agissons avec les criminels.",
+        "de": "So verfahren Wir mit den Übeltätern.",
+        "es": "Así haremos con los pecadores.",
+        "nl": "Zoo handelen wij met de snoodaards."
+      }
+    },
+    {
+      "ayah": 19,
+      "text": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+      "translations": {
+        "en": "Woe on that Day unto those who give the lie to the truth!",
+        "fr": "Malheur, ce jour-là, à ceux qui criaient au mensonge.",
+        "de": "Wehe an jenem Tag den Leugnern!",
+        "es": "Ese día, ¡ay de los desmentidores!",
+        "nl": "Wee op dien dag over hen, die de profeten van bedrog hebben beschuldigd!"
+      }
+    },
+    {
+      "ayah": 20,
+      "text": "أَلَمْ نَخْلُقكُّم مِّن مَّآءٍۢ مَّهِينٍۢ",
+      "translations": {
+        "en": "Did We not create you out of a humble fluid",
+        "fr": "Ne vous avons-Nous pas créés d'une eau vile",
+        "de": "Haben Wir euch nicht aus verächtlichem Wasser erschaffen,",
+        "es": "¿No os hemos creado de un líquido vil,",
+        "nl": "Hebben wij u niet van een nietigen droppel zaad geschapen."
+      }
+    },
+    {
+      "ayah": 21,
+      "text": "فَجَعَلْنَٰهُ فِى قَرَارٍۢ مَّكِينٍ",
+      "translations": {
+        "en": "which We then let remain in [the womb's] firm keeping",
+        "fr": "que Nous avons placée dans un reposoir sûr,",
+        "de": "das Wir dann in einem festen Aufenthaltsort haben sein lassen,",
+        "es": "que hemos depositado en un receptáculo seguro,",
+        "nl": "Dien wij in eene zekere bewaarplaats stelden."
+      }
+    },
+    {
+      "ayah": 22,
+      "text": "إِلَىٰ قَدَرٍۢ مَّعْلُومٍۢ",
+      "translations": {
+        "en": "for a term pre-ordained?",
+        "fr": "pour une durée connue?",
+        "de": "bis zu einem bekannten Zeitpunkt?",
+        "es": "durante un tiempo determinado?",
+        "nl": "Tot de bepaalde tijd der verlossing was gekomen?"
+      }
+    },
+    {
+      "ayah": 23,
+      "text": "فَقَدَرْنَا فَنِعْمَ ٱلْقَٰدِرُونَ",
+      "translations": {
+        "en": "Thus have We determined [the nature of man's creation]: and excellent indeed is Our power to determine [what is to be]!",
+        "fr": "Nous l'avons décrété ainsi et Nous décrétons [tout] de façon parfaite.",
+        "de": "So haben Wir bemessen. Welch trefflicher Bemesser sind Wir!",
+        "es": "Así lo hemos decidido y ¡qué bien que lo hemos decidido!",
+        "nl": "En wij waren in staat dit te doen; want wij zijn machtig."
+      }
+    },
+    {
+      "ayah": 24,
+      "text": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+      "translations": {
+        "en": "Woe, on that Day unto those who give the lie to the truth!",
+        "fr": "Malheur, ce jour-là, à ceux qui criaient au mensonge.",
+        "de": "Wehe an jenem Tag den Leugnern!",
+        "es": "Ese día ¡ay de los desmentidores!",
+        "nl": "Wee op dien dag over hen, die de profeten van bedrog hebben beschuldigd!"
+      }
+    },
+    {
+      "ayah": 25,
+      "text": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا",
+      "translations": {
+        "en": "Have We not caused the earth to hold within itself",
+        "fr": "N'avons-Nous pas fait de la terre un endroit les contenant tous,",
+        "de": "Haben Wir nicht die Erde zu einem Ort der Aufbewahrung gemacht",
+        "es": "¿No hemos hecho de la tierra lugar de reunión",
+        "nl": "Hebben wij de aarde niet zóó gemaakt, dat zij bevat"
+      }
+    },
+    {
+      "ayah": 26,
+      "text": "أَحْيَآءًۭ وَأَمْوَٰتًۭا",
+      "translations": {
+        "en": "the living and the dead?",
+        "fr": "les vivants ainsi que les morts?",
+        "de": "- für die Lebenden und die Toten -",
+        "es": "de vivos y muertos,",
+        "nl": "De levenden en de dooden?"
+      }
+    },
+    {
+      "ayah": 27,
+      "text": "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَٰمِخَٰتٍۢ وَأَسْقَيْنَٰكُم مَّآءًۭ فُرَاتًۭا",
+      "translations": {
+        "en": "and have We not set on it proud, firm mountains, and given you sweet water to drink?",
+        "fr": "Et n'y avons-Nous pas placé fermement de hautes montagnes? Et ne vous avons-Nous pas abreuvés d'eau douce?",
+        "de": "und auf ihr festgegründete, hoch aufragende Berge gemacht und euch frisches Wasser zu trinken gegeben?",
+        "es": "y puesto en ella elevadas montañas? ¿No os hemos dado de beber un agua dulce?",
+        "nl": "En hebben wij daarop geene vaste, verhevene bergen geplaatst en u zuiver water te drinken gegeven?"
+      }
+    },
+    {
+      "ayah": 28,
+      "text": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+      "translations": {
+        "en": "Woe on that Day unto those who give the lie to the truth!",
+        "fr": "Malheur, ce jour-là, à ceux qui criaient au mensonge.",
+        "de": "Wehe an jenem Tag den Leugnern!",
+        "es": "Ese día, ¡ay de los desmentidores!",
+        "nl": "Wee op dien dag over hen, die de profeten van bedrog hebben beschuldigd!"
+      }
+    },
+    {
+      "ayah": 29,
+      "text": "ٱنطَلِقُوٓا۟ إِلَىٰ مَا كُنتُم بِهِۦ تُكَذِّبُونَ",
+      "translations": {
+        "en": "GO ON towards that [resurrection] which you were wont to call a lie!",
+        "fr": "Allez vers ce que vous traitiez alors de mensonge!",
+        "de": "- \"Zieht los zu dem, was ihr stets für Lüge erklärt habt,",
+        "es": "«¡Id a lo que desmentíais!",
+        "nl": "Men zal tot hen zeggen: Gaat ter straf, welke gij als eene valschheid hebt geloochend."
+      }
+    },
+    {
+      "ayah": 30,
+      "text": "ٱنطَلِقُوٓا۟ إِلَىٰ ظِلٍّۢ ذِى ثَلَٰثِ شُعَبٍۢ",
+      "translations": {
+        "en": "Go on towards the threefold shadow",
+        "fr": "Allez vers une ombre [fumée de l'Enfer] à trois branches;",
+        "de": "zieht los zu einem Schatten mit drei Verzweigungen,",
+        "es": "¡Id a la sombra ramificada en tres,",
+        "nl": "Gaat in de schaduw van den rook der hel, welke in drie kolommen zal opstijgen."
+      }
+    },
+    {
+      "ayah": 31,
+      "text": "لَّا ظَلِيلٍۢ وَلَا يُغْنِى مِنَ ٱللَّهَبِ",
+      "translations": {
+        "en": "that will offer no [cooling] shade and will be of no avail against the flame",
+        "fr": "qui n'est ni ombreuse ni capable de protéger contre la flamme;",
+        "de": "der kein (wirklicher) Schattenspender ist und nicht (als Schutz) gegen die Flammen nützt.\"",
+        "es": "sombra tenue, sombra inútil frente a la llama!»",
+        "nl": "En die u noch voor de hitte beveiligen, noch tegen de vlam van dienst wezen zal."
+      }
+    },
+    {
+      "ayah": 32,
+      "text": "إِنَّهَا تَرْمِى بِشَرَرٍۢ كَٱلْقَصْرِ",
+      "translations": {
+        "en": "which – behold!- will throw up sparks like [burning] logs,",
+        "fr": "car [le feu] jette des étincelles volumineuses comme des châteaux,",
+        "de": "Sie wirft mit Funken wie Schlösser,",
+        "es": "Porque arroja chispas grandes como palacios,",
+        "nl": "Maar hij zal vonken, zoo groot als torens, uitwerpen."
+      }
+    },
+    {
+      "ayah": 33,
+      "text": "كَأَنَّهُۥ جِمَٰلَتٌۭ صُفْرٌۭ",
+      "translations": {
+        "en": "like giant fiery ropes!",
+        "fr": "et qu'on prendrait pour des chameaux jaunes.",
+        "de": "als wären sie gelbe Kamele.",
+        "es": "chispas que semejan camellos leonados.",
+        "nl": "Gelijkende in hare kleur op gele kemels,"
+      }
+    },
+    {
+      "ayah": 34,
+      "text": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+      "translations": {
+        "en": "Woe on that Day unto those who give the lie to the truth –",
+        "fr": "Malheur, ce jour-là, à ceux qui criaient au mensonge.",
+        "de": "Wehe an jenem Tag den Leugnern!",
+        "es": "Ese día, ¡ay de los desmentidores!",
+        "nl": "Wee op dien dag over hen, die de profeten van bedrog hebben beschuldigd!"
+      }
+    },
+    {
+      "ayah": 35,
+      "text": "هَٰذَا يَوْمُ لَا يَنطِقُونَ",
+      "translations": {
+        "en": "that Day on which they will not [be able to] utter a word,",
+        "fr": "Ce sera le jour où ils ne [peuvent] pas parler,",
+        "de": "Das ist der Tag, an dem sie nicht reden werden",
+        "es": "Ése será un día en que no tendrán que decir",
+        "nl": "Dit zal een dag wezen, waarop de schuldigen sprakeloos zullen zijn."
+      }
+    },
+    {
+      "ayah": 36,
+      "text": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
+      "translations": {
+        "en": "nor be allowed to proffer excuses!",
+        "fr": "et point ne leur sera donné permission de s'excuser.",
+        "de": "und (es) ihnen nicht erlaubt wird, daß sie sich entschuldigen.",
+        "es": "ni se les permitirá excusarse.",
+        "nl": "En het zal hun niet geoorloofd worden, zich te verontschuldigen."
+      }
+    },
+    {
+      "ayah": 37,
+      "text": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+      "translations": {
+        "en": "Woe on that Day unto those who give the lie to the truth –",
+        "fr": "Malheur, ce jour-là, à ceux qui criaient au mensonge.",
+        "de": "Wehe an jenem Tag den Leugnern!",
+        "es": "Ese día, ¡ay de los desmentidores!",
+        "nl": "Wee op dien dag over hen, die de profeten van bedrog hebben beschuldigd!"
+      }
+    },
+    {
+      "ayah": 38,
+      "text": "هَٰذَا يَوْمُ ٱلْفَصْلِ ۖ جَمَعْنَٰكُمْ وَٱلْأَوَّلِينَ",
+      "translations": {
+        "en": "that Day of Distinction [between the true and the false, when they will be told]: \"We have brought you together with those [sinners] of olden times;",
+        "fr": "C'est le Jour de la Décision [Jugement], où nous vous réunirons ainsi que les anciens.",
+        "de": "- \"Das ist der Tag der Entscheidung; Wir haben euch mit den Früheren versammelt.",
+        "es": "«Éste es el día del Fallo. Os hemos reunido, a vosotros y a los antiguos.",
+        "nl": "Dit zal de dag der scheiding wezen, waarop wij zoowel u, als uwe voorgangers zullen verzamelen."
+      }
+    },
+    {
+      "ayah": 39,
+      "text": "فَإِن كَانَ لَكُمْ كَيْدٌۭ فَكِيدُونِ",
+      "translations": {
+        "en": "and if you [think that you] have a subterfuge left, try to outwit Me!\"",
+        "fr": "Si vous disposez d'une ruse, rusez donc contre Moi.",
+        "de": "Wenn ihr also eine List habt, so führt sie gegen Mich aus.\"",
+        "es": "Si disponéis de alguna artimaña, ¡empleadla contra mí»",
+        "nl": "Indien gij dus eene doordachte list bezit, gebruikt die dan tegen mij."
+      }
+    },
+    {
+      "ayah": 40,
+      "text": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+      "translations": {
+        "en": "Woe on that Day unto those who give the lie to the truth!",
+        "fr": "Malheur, ce jour-là, à ceux qui criaient au mensonge.",
+        "de": "Wehe an jenem Tag den Leugnern!",
+        "es": "Ese día, ¡ay de los desmentidores!",
+        "nl": "Wee op dien dag over hen, die de profeten van bedrog hebben beschuldigd!"
+      }
+    },
+    {
+      "ayah": 41,
+      "text": "إِنَّ ٱلْمُتَّقِينَ فِى ظِلَٰلٍۢ وَعُيُونٍۢ",
+      "translations": {
+        "en": "[AS AGAINST this,] behold, the God-conscious shall dwell amidst [cooling] shades and springs,",
+        "fr": "Les pieux seront parmi des ombrages et des sources",
+        "de": "Gewiß, die Gottesfürchtigen werden sich in Schatten und an Quellen befinden",
+        "es": "Los temerosos de Alá estarán a la sombra y entre fuentes,",
+        "nl": "Maar de vrome zal te midden van schaduwen en fonteinen wonen."
+      }
+    },
+    {
+      "ayah": 42,
+      "text": "وَفَوَٰكِهَ مِمَّا يَشْتَهُونَ",
+      "translations": {
+        "en": "and [partake of] whatever fruit they may desire;",
+        "fr": "De même que des fruits selon leurs désirs.",
+        "de": "und bei Früchten von dem, was sie begehren.",
+        "es": "y tendrán la fruta que deseen.",
+        "nl": "En te midden van vruchten van allerlei soort, welke zij zullen begeeren."
+      }
+    },
+    {
+      "ayah": 43,
+      "text": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ",
+      "translations": {
+        "en": "[and they will be told:] \"Eat and drink in good cheer in return for what you did [in life]!\"",
+        "fr": "«Mangez et buvez agréablement, pour ce que vous faisiez».",
+        "de": "- \"Eßt und trinkt als wohlbekömmlich für das, was ihr zu tun pflegtet.\"",
+        "es": "«¡Comed y bebed en paz el fruto de vuestras obras!»",
+        "nl": "En men zal tot hen zeggen: Eet en drinkt met goede spijsvertering, ter belooning voor hetgeen gij zult hebben verricht."
+      }
+    },
+    {
+      "ayah": 44,
+      "text": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+      "translations": {
+        "en": "Thus, behold, do We reward the doers of good;",
+        "fr": "C'est ainsi que Nous récompensons les bienfaisants.",
+        "de": "Gewiß, so vergelten Wir den Rechtschaffenen.",
+        "es": "Así retribuimos a quienes hacen el bien.",
+        "nl": "Want zoo beloonen wij de rechtvaardigen."
+      }
+    },
+    {
+      "ayah": 45,
+      "text": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+      "translations": {
+        "en": "[but] woe on that Day unto those who give the lie to the truth!",
+        "fr": "Malheur, ce jour-là, à ceux qui criaient au mensonge.",
+        "de": "Wehe an jenem Tag den Leugnern!",
+        "es": "Ese día, ¡ay de los desmentidores!",
+        "nl": "Wee op dien dag over hen, die de profeten van bedrog hebben beschuldigd!"
+      }
+    },
+    {
+      "ayah": 46,
+      "text": "كُلُوا۟ وَتَمَتَّعُوا۟ قَلِيلًا إِنَّكُم مُّجْرِمُونَ",
+      "translations": {
+        "en": "EAT [your fill] and enjoy your life for a little while, O you who are lost in sin!",
+        "fr": "«Mangez et jouissez un peu (ici-bas); vous êtes certes des criminels».",
+        "de": "- \"Eßt und genießt ein wenig, ihr seid ja Übeltäter.\"",
+        "es": "«¡Comed y disfrutad aún un poco!, ¡Sois unos pecadores!»",
+        "nl": "Eet, o ongeloovigen? en geniet de genoegens van dit leven voor een korten tijd. Waarlijk, gij zijt zondaren."
+      }
+    },
+    {
+      "ayah": 47,
+      "text": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+      "translations": {
+        "en": "[But] woe on that Day unto those who give the lie to the truth,",
+        "fr": "Malheur, ce jour-là, à ceux qui criaient au mensonge.",
+        "de": "Wehe an jenem Tag den Leugnern!",
+        "es": "Ese día, ¡ay de los desmentidores!",
+        "nl": "Wee op dien dag over hen, die de profeten van bedrog hebben beschuldigd!"
+      }
+    },
+    {
+      "ayah": 48,
+      "text": "وَإِذَا قِيلَ لَهُمُ ٱرْكَعُوا۟ لَا يَرْكَعُونَ",
+      "translations": {
+        "en": "and when they are told, \"Bow down [before God]\", do not bow down:",
+        "fr": "Et quand on leur dit: «Inclinez-vous, ils ne s'inclinent pas.",
+        "de": "Und wenn zu ihnen gesagt wird: \"Verbeugt euch!\", verbeugen sie sich nicht.",
+        "es": "Cuando se les dice: «¡Inclinaos!», no se inclinan.",
+        "nl": "En als hun gezegd wordt: Buigt u neder, dan buigen zij niet neder."
+      }
+    },
+    {
+      "ayah": 49,
+      "text": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+      "translations": {
+        "en": "woe on that Day unto those who give the to the truth!",
+        "fr": "Malheur, ce jour-là, à ceux qui criaient au mensonge.",
+        "de": "Wehe an jenem Tag den Leugnern!",
+        "es": "Ese día, ¡ay de los desmentidores!",
+        "nl": "Wee op dien dag over hen, die de profeten van bedrog hebben beschuldigd!"
+      }
+    },
+    {
+      "ayah": 50,
+      "text": "فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ",
+      "translations": {
+        "en": "In what other tiding, then, will they, after this, believe?",
+        "fr": "Après cela, en quelle parole croiront-ils donc?",
+        "de": "An welche Aussage nach dieser wollen sie denn glauben?",
+        "es": "¿En qué anuncio, después de éste, van a creer?",
+        "nl": "In welke nieuwe openbaring, zullen zij na deze gelooven?"
+      }
+    }
+  ]
+}

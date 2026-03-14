@@ -1,0 +1,193 @@
+{
+  "surah": 86,
+  "name": "At-Tariq",
+  "verses": [
+    {
+      "ayah": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+      "translations": {
+        "en": "CONSIDER the heavens and that which comes in the night!",
+        "fr": "Par le ciel et par l'astre nocturne",
+        "de": "Beim Himmel und dem Pochenden!",
+        "es": "¡Por el cielo y el astro nocturno!",
+        "nl": "Ik zweer bij den hemel en bij de ster, die des nachts verschijnt."
+      }
+    },
+    {
+      "ayah": 2,
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ",
+      "translations": {
+        "en": "And what could make thee conceive what it is that comes in the night?",
+        "fr": "Et qui te dira ce qu'est l'astre nocturne?",
+        "de": "Und was läßt dich wissen, was der Pochende ist?",
+        "es": "Y ¿cómo sabrás qué es el astro nocturno?",
+        "nl": "Maar wat zal u datgene doen verstaan, wat bij nacht verschijnt?"
+      }
+    },
+    {
+      "ayah": 3,
+      "text": "ٱلنَّجْمُ ٱلثَّاقِبُ",
+      "translations": {
+        "en": "It is the star that pierces through [life's] darkness:",
+        "fr": "C'est l'étoile vivement brillante.",
+        "de": "(Es ist) der durchbohrend helle Stem.",
+        "es": "Es la estrella de penetrante luz.",
+        "nl": "Het is de ster, die glansrijke stralen schiet."
+      }
+    },
+    {
+      "ayah": 4,
+      "text": "إِن كُلُّ نَفْسٍۢ لَّمَّا عَلَيْهَا حَافِظٌۭ",
+      "translations": {
+        "en": "[for] no human being has ever been left unguarded.",
+        "fr": "Il n'est pas d'âme qui n'ait sur elle un gardien.",
+        "de": "Es gibt keine Seele, über der nicht ein Hüter (eingesetzt) ist.",
+        "es": "No hay nadie que no tenga un guardián.",
+        "nl": "Iedere ziel heeft een wachter, die over hem is aangesteld."
+      }
+    },
+    {
+      "ayah": 5,
+      "text": "فَلْيَنظُرِ ٱلْإِنسَٰنُ مِمَّ خُلِقَ",
+      "translations": {
+        "en": "LET MAN, then, observe out of what he has been created:",
+        "fr": "Que l'homme considère donc de quoi il a été créé.",
+        "de": "So soll der Mensch doch hinsehen, woraus er erschaffen ist.",
+        "es": "¡Que considere el hombre de qué ha sido creado!",
+        "nl": "Laat de mensch dus overwegen van wat hij is geschapen."
+      }
+    },
+    {
+      "ayah": 6,
+      "text": "خُلِقَ مِن مَّآءٍۢ دَافِقٍۢ",
+      "translations": {
+        "en": "he has been created out of a seminal fluid",
+        "fr": "Il a été créé d'une giclée d'eau",
+        "de": "Er ist aus sich ergießendem Wasser erschaffen,",
+        "es": "Ha sido creado de un líquido fluente,",
+        "nl": "Hij is geschapen van een droppel zaad."
+      }
+    },
+    {
+      "ayah": 7,
+      "text": "يَخْرُجُ مِنۢ بَيْنِ ٱلصُّلْبِ وَٱلتَّرَآئِبِ",
+      "translations": {
+        "en": "issuing from between the loins [of man] and the pelvic arch [of woman].",
+        "fr": "sortie d'entre les lombes et les côtes.",
+        "de": "das zwischen der Lende und der (weiblichen) Brust hervorkommt.",
+        "es": "que sale de entre los riñones y las costillas.",
+        "nl": "Uit de lendenen en de borstbeenderen voortkomende."
+      }
+    },
+    {
+      "ayah": 8,
+      "text": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌۭ",
+      "translations": {
+        "en": "Now, verily, He [who thus creates man in the first instance] is well able to bring him back [to life]",
+        "fr": "Allah est certes capable de le ressusciter.",
+        "de": "Er hat die Macht dazu, ihn zurückkehren zu lassen,",
+        "es": "En verdad, Él es capaz de volverle,",
+        "nl": "Waarlijk, God is in staat hem in het leven terug te roepen."
+      }
+    },
+    {
+      "ayah": 9,
+      "text": "يَوْمَ تُبْلَى ٱلسَّرَآئِرُ",
+      "translations": {
+        "en": "on the Day when all secrets will be laid bare,",
+        "fr": "Le jour où les cœurs dévoileront leurs secrets,",
+        "de": "am Tag, da die geheimsten Gedanken geprüft werden.",
+        "es": "el día que sean probados los secretos",
+        "nl": "Op den dag waarop alle verborgen denkbeelden en daden zullen worden onderzocht."
+      }
+    },
+    {
+      "ayah": 10,
+      "text": "فَمَا لَهُۥ مِن قُوَّةٍۢ وَلَا نَاصِرٍۢ",
+      "translations": {
+        "en": "and [man] will have neither strength nor helper!",
+        "fr": "Il n'aura alors ni force ni secoureur.",
+        "de": "Dann hat er weder Kraft noch einen Helfer.",
+        "es": "y no tenga ya fuerza ni quien le auxilie.",
+        "nl": "En hij zal de macht om zich te verdedigen, noch eenigen beschermer hebben."
+      }
+    },
+    {
+      "ayah": 11,
+      "text": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ",
+      "translations": {
+        "en": "Consider the heavens, ever-revolving,",
+        "fr": "Par le ciel qui fait revenir la pluie!",
+        "de": "Beim Himmel mit der Wiederkehr",
+        "es": "¡Por el cielo periódico!",
+        "nl": "Bij den hemel, die (regen) nedergiet."
+      }
+    },
+    {
+      "ayah": 12,
+      "text": "وَٱلْأَرْضِ ذَاتِ ٱلصَّدْعِ",
+      "translations": {
+        "en": "and the earth, bursting forth with plants!",
+        "fr": "et par la terre qui se fend!",
+        "de": "und der Erde mit ihren Sprüngen!",
+        "es": "¡Por la tierra que se abre!",
+        "nl": "En bij de aarde, die zich opent om planten en bronnen te doen voortspruiten."
+      }
+    },
+    {
+      "ayah": 13,
+      "text": "إِنَّهُۥ لَقَوْلٌۭ فَصْلٌۭ",
+      "translations": {
+        "en": "BEHOLD, this [divine writ] is indeed a word that between truth and falsehood,",
+        "fr": "Ceci [le Coran] est certes, une parole décisive [qui tranche entre le vrai et le faux],",
+        "de": "Er ist wahrlich ein entscheidendes Wort;",
+        "es": "Es, en verdad, una palabra decisiva,",
+        "nl": "Waarlijk, dit is een gesprek ter onderscheiding (tusschen het goede en het kwade);"
+      }
+    },
+    {
+      "ayah": 14,
+      "text": "وَمَا هُوَ بِٱلْهَزْلِ",
+      "translations": {
+        "en": "and is no idle tale.",
+        "fr": "et non point une plaisanterie frivole!",
+        "de": "er ist kein Scherz.",
+        "es": "seria.",
+        "nl": "Het is niet lichtvaardig samengesteld."
+      }
+    },
+    {
+      "ayah": 15,
+      "text": "إِنَّهُمْ يَكِيدُونَ كَيْدًۭا",
+      "translations": {
+        "en": "Behold, they [who refuse to accept it] devise many a false argument [to disprove its truth];",
+        "fr": "Ils se servent d'une ruse,",
+        "de": "Sie wenden eine List an,",
+        "es": "Ellos emplean una artimaña,",
+        "nl": "Waarlijk, de ongeloovigen spannen samen (om mijne plannen te verijdelen);"
+      }
+    },
+    {
+      "ayah": 16,
+      "text": "وَأَكِيدُ كَيْدًۭا",
+      "translations": {
+        "en": "but I shall bring all their scheming to nought.",
+        "fr": "et Moi aussi Je me sers de Mon plan.",
+        "de": "Und Ich wende eine List an.",
+        "es": "y Yo empleo una artimaña,",
+        "nl": "Maar ik zal samenspannen om hen te vernietigen."
+      }
+    },
+    {
+      "ayah": 17,
+      "text": "فَمَهِّلِ ٱلْكَٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا",
+      "translations": {
+        "en": "Let, then, the deniers of the truth have their will: let them have their will for a little while.",
+        "fr": "Accorde (ô Prophète) donc un délai aux infidèles: accorde-leur un court délai.",
+        "de": "So lasse den Ungläubigen noch Zeit; lasse ihnen nur eine Weile Zeit.",
+        "es": "¡Concede una prórroga a los infieles, un poco más de prórroga!",
+        "nl": "Daarom, o profeet! wees geduldig met de ongeloovigen, en laat hen korten tijd met vrede."
+      }
+    }
+  ]
+}

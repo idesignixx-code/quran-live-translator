@@ -1,0 +1,215 @@
+{
+  "surah": 87,
+  "name": "Al-A'la",
+  "verses": [
+    {
+      "ayah": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+      "translations": {
+        "en": "EXTOL the limitless glory of thy Sustainer's name: [the glory of] the Al-Highest,",
+        "fr": "Glorifie le nom de ton Seigneur, le Très Haut,",
+        "de": "Preise den Namen deines höchsten Herrn,",
+        "es": "¡Glorifica el nombre de tu Señor, el Altísimo,",
+        "nl": "Geloofd zij de naam van uwen Heer, den Verhevenste,"
+      }
+    },
+    {
+      "ayah": 2,
+      "text": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
+      "translations": {
+        "en": "who creates [every thing], and thereupon forms it in accordance with what it is meant to be,",
+        "fr": "Celui Qui a créé et agencé harmonieusement,",
+        "de": "Der erschafft und dann zurechtformt",
+        "es": "Que ha creado y dado forma armoniosa,",
+        "nl": "Die zijne schepselen geschapen en volmaakt gevormd heeft,"
+      }
+    },
+    {
+      "ayah": 3,
+      "text": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
+      "translations": {
+        "en": "and who determines the nature [of all that exists], and thereupon guides it [towards its fulfilment],",
+        "fr": "qui a décrété et guidé,",
+        "de": "und Der das Maß festsetzt und dann rechtleitet",
+        "es": "Que ha determinado y dirigido,",
+        "nl": "Die hen tot verschillende doeleinden heeft bestemd en hen richt om die te bereiken;"
+      }
+    },
+    {
+      "ayah": 4,
+      "text": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ",
+      "translations": {
+        "en": "and who brings forth herbage,",
+        "fr": "et qui a fait pousser le pâturage,",
+        "de": "und Der die Weide hervorbringt",
+        "es": "Que ha sacado el pasto",
+        "nl": "En die het voedsel voor het vee voortbrengt."
+      }
+    },
+    {
+      "ayah": 5,
+      "text": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ",
+      "translations": {
+        "en": "and thereupon causes it to decay into rust-brown stubble!",
+        "fr": "et en a fait ensuite un foin sombre.",
+        "de": "und sie dann zu dunkelbrauner Spreu macht.",
+        "es": "y, luego, hecho de él obscuro heno!",
+        "nl": "En het daarna in droge stoppels of donkerkleurig hooi verandert."
+      }
+    },
+    {
+      "ayah": 6,
+      "text": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
+      "translations": {
+        "en": "WE SHALL teach thee, and thou wilt not forget [aught of what thou art taught],",
+        "fr": "Nous te ferons réciter (le Coran), de sorte que tu n'oublieras",
+        "de": "Wir werden dich lesen lassen, und dann wirst du nichts vergessen,",
+        "es": "Te haremos recitar y, así no olvidarás,",
+        "nl": "Wij zullen u in staat stellen, onze openbaringen te onthouden, en gij zult geen deel daarvan vergeten,"
+      }
+    },
+    {
+      "ayah": 7,
+      "text": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+      "translations": {
+        "en": "save what God may will [thee to forget] - for, verily, He [alone] knows all that is open to [man's] perception as well as all that is hidden [from it]",
+        "fr": "que ce qu'Allah veut. Car, Il connaît ce qui paraît au grand jour ainsi que ce qui est caché.",
+        "de": "außer dem, was Allah will. Er weiß ja, was laut vernehmbar geäußert wird und was verborgen bleibt.",
+        "es": "salvo lo que Alá quiera. Él conoce lo patente y lo escondido.",
+        "nl": "Behalve wat Gode zal behagen; want hij kent datgene, wat openbaar en wat verborgen is."
+      }
+    },
+    {
+      "ayah": 8,
+      "text": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
+      "translations": {
+        "en": "and [thus] shall We make easy for thee the path towards [ultimate] ease.",
+        "fr": "Nous te mettrons sur la voie la plus facile.",
+        "de": "Und Wir werden dir den Weg zum Leichteren leicht machen.",
+        "es": "Te facilitaremos el acceso a la mayor felicidad.",
+        "nl": "Wij zullen u den lichtsten weg gemakkelijk maken."
+      }
+    },
+    {
+      "ayah": 9,
+      "text": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+      "translations": {
+        "en": "REMIND, THEN, [others of the truth, regardless of] whether this reminding [would seem to] be of use [or not]:",
+        "fr": "Rappelle, donc, où le Rappel doit être utile.",
+        "de": "So ermahne -, wenn die Ermahnung nützt.",
+        "es": "¡Amonesta, pues, si la amonestación aprovecha!",
+        "nl": "Vermaan dus uw volk indien uwe vermaning hun voordeelig kan zijn."
+      }
+    },
+    {
+      "ayah": 10,
+      "text": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
+      "translations": {
+        "en": "in mind will keep it he who stands in awe [of God],",
+        "fr": "Quiconque craint (Allah) s'[en] rappellera,",
+        "de": "Bedenken wird jemand, der gottesfürchtig ist.",
+        "es": "Se dejará amonestar quien tenga miedo de Alá,",
+        "nl": "Wie God vreest zal vermaand worden;"
+      }
+    },
+    {
+      "ayah": 11,
+      "text": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
+      "translations": {
+        "en": "but aloof from it will remain that most hapless wretch –",
+        "fr": "et s'en écartera le grand malheureux,",
+        "de": "Meiden aber wird es der Unseligste,",
+        "es": "y la evitará el infame,",
+        "nl": "Maar de meest verdorven (zondaar) zal zich daarvan afwenden."
+      }
+    },
+    {
+      "ayah": 12,
+      "text": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
+      "translations": {
+        "en": "he who [in the life to come] shall have to endure the great fire",
+        "fr": "qui brûlera dans le plus grand Feu,",
+        "de": "der dem größten (Höllen)feuer ausgesetzt sein wird;",
+        "es": "que arderá en el tan grande Fuego.",
+        "nl": "Die nedergeworpen worden zal, om in het groote hellevuur geroosterd te worden."
+      }
+    },
+    {
+      "ayah": 13,
+      "text": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+      "translations": {
+        "en": "wherein he will neither die nor remain alive.",
+        "fr": "où il ne mourra ni ne vivra.",
+        "de": "darin wird er hierauf weder sterben noch leben.",
+        "es": "sin en él morir ni vivir.",
+        "nl": "Waarin hij sterven noch leven zal."
+      }
+    },
+    {
+      "ayah": 14,
+      "text": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
+      "translations": {
+        "en": "To happiness [in the life to come] will indeed attain he who attains to purity [in this world],",
+        "fr": "Réussit, certes, celui qui se purifie,",
+        "de": "Wohl ergehen wird es ja jemandem, der sich läutert,",
+        "es": "¡Bienaventurado, en cambio, quien se purifique,",
+        "nl": "Gelukzalig hij, die door het geloof gezuiverd is."
+      }
+    },
+    {
+      "ayah": 15,
+      "text": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
+      "translations": {
+        "en": "and remembers his Sustainer's name, and prays [unto Him].",
+        "fr": "et se rappelle le nom de son Seigneur, puis célèbre la Salât.",
+        "de": "und des Namens seines Herrn gedenkt; so betet er.",
+        "es": "quien mencione el nombre de su Señor y ore!",
+        "nl": "En die den naam van zijnen Heer herdenkt en bidt."
+      }
+    },
+    {
+      "ayah": 16,
+      "text": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "translations": {
+        "en": "But nay, [O men,] you prefer the life of this world,",
+        "fr": "Mais, vous préférez plutôt la vie présente,",
+        "de": "Nein! Vielmehr zieht ihr das diesseitige Leben vor,",
+        "es": "Pero preferís la vida de acá,",
+        "nl": "Maar gij verkiest het tegenwoordige leven,"
+      }
+    },
+    {
+      "ayah": 17,
+      "text": "وَٱلْءَاخِرَةُ خَيْرٌۭ وَأَبْقَىٰٓ",
+      "translations": {
+        "en": "although the life to come is better and more enduring.",
+        "fr": "alors que l'au-delà est meilleur et plus durable.",
+        "de": "während das Jenseits besser und beständiger ist.",
+        "es": "siendo así que la otra es mejor y más duradera.",
+        "nl": "Hoewel het volgende leven beter en duurzamer is."
+      }
+    },
+    {
+      "ayah": 18,
+      "text": "إِنَّ هَٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
+      "translations": {
+        "en": "Verily, [all] this has indeed been [said] in the earlier revelations –",
+        "fr": "Ceci se trouve, certes, dans les Feuilles anciennes,",
+        "de": "Dies ist wahrlich in den früheren Blättern (enthalten),",
+        "es": "Esto se encuentra en las Hojas primeras,",
+        "nl": "Waarlijk, dit is in de oude boeken geschreven."
+      }
+    },
+    {
+      "ayah": 19,
+      "text": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
+      "translations": {
+        "en": "the revelations of Abraham and Moses.",
+        "fr": "les Feuilles d'Abraham et de Moïse.",
+        "de": "den Blättern Ibrahims und Musas.",
+        "es": "las Hojas de Abraham y de Moisés.",
+        "nl": "In de boeken van Abraham en Mozes."
+      }
+    }
+  ]
+}
